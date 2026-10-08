@@ -1,6 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Changze Chen</title>
@@ -10,17 +12,12 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <!-- MathJax -->
     <script>
         window.MathJax = {
             tex: {
-                inlineMath: [
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ]
+                inlineMath: [['$', '$'], ['\\(', '\\)']],
+                displayMath: [['$$', '$$'], ['\\[', '\\]']]
             }
         };
     </script>
@@ -31,77 +28,173 @@
     </script>
 </head>
 
-<h1>Changze Chen</h1>
-    <h2>About Me</h2>
-    <p>
-        I am currently a junior undergraduate student in the School of Mathematical Sciences,
-        Fudan University. My major is computational mathematics.<br>
-        My academic interests include <strong>applied and computational mathematics, computational fluid dynamics, stochastic processes in atmospheric science,
-        numerical analysis</strong>.<br>
-        I plan to apply for Ph.D. programs starting in Fall 2028. I’m self-motivated and always eager to learn new and interesting things.
-    </p>
 
-    <h2>Education</h2>
-    <p>
-        <strong>Fudan University</strong>   <i>Shanghai, China</i><br>
-        B.S. in Information and Computational Science (Computational Mathematics) <br>
-        August 2024 - July 2028<br>
-        <br>
-        <strong>Core Course</strong>s: Mathematical Analysis, Advanced Algebra, Ordinary Differential Equations, Statistical Learning, Abstract Algebra, 
-        Mathematical Modeling, Real Analysis (Measure and Integration), Complex Analysis, Topology, Geometry.
-    </p>
-  <p>
-        <strong>University of Connecticut</strong>   <i>CT, United States</i><br>
-        Exchange Student <br>
-        August 2026 - December 2026<br>
-        <br>
-        <strong>Core Courses</strong>: Probability and Stochastic Process (Graduate), Partial Differential Equations, Intro to Mathematical Statistics.
-    </p>
+<body>
 
-    <h2>Research Experience and Project</h2>
-    <p>
-         <strong>Deep Learning and PDE based Early Warning System for African Desert Locust</strong><br>
-        Undergraduate Independent Research, sponsored by Wangdao Project, Fudan Undergraduate Research Opportunity Program(FDUROP)<br>
-        Advisors: <a href="https://atmsci.fudan.edu.cn/50/43/c14809a151619/page.htm">Yong Wang</a> (Fudan University) and <a href="https://scholar.google.com/citations?user=MuPupWgAAAAJ&hl=en">Yilun Han</a> (UC San Diego)<br>
-        I applied CNNs and time-series analysis to investigate relationships between meteorological conditions and locust population density, 
-        and developed PDE-based numerical models to simulate population-density evolution and estimate the risk of progression toward large-scale locust outbreaks.
-    </p>
-    <p>
-         <strong>Matrix-Free Input–Output Analysis of Wall-Bounded Flows</strong><br>
-        Research Assistant<br>
-        Advisors: <a href="https://changliulab.engineering.uconn.edu/">Chang Liu</a> (University of Connecticut)<br>
-        I worked in the FLUids, rEduction, Nonlinearity, and Turbulence (FLUENT) Lab and developed matrix-free input–output analysis for linearized Navier–Stokes equations using Fourier and Chebyshev discretization and iterative linear solvers. 
-        Applied SVD and adjoint-based methods to compute dominant forcing–response modes and characterize disturbance amplification in wall-bounded flows.
-    </p>
-    <p>
-         <strong>Seminar of Real Analysis: Hausdorff Measure and Hausdorff Dimension</strong><br>
-        I gave a presentation of the construction of Hausdorff measure and proved that $\mathcal H^\alpha$ defines a metric outer measure on $\mathbb R$, with all Borel sets Carathéodory measurable. Also proved that the one-dimensional Hausdorff measure $\mathcal H^1$ coincides with Lebesgue measure on $\mathbb R$.
-        You can find my note <a href="https://github.com/ChangzeChen/Seminar-of-Real-Analysis">here</a>.
-    </p>
+<div class="page">
 
-<h2>Awards and Scholarship</h2>
-    <p>
-        <strong>Freshman First-Class Scholarship</strong> Fudan University, December 2024<br><br>
-        <strong>Third Prize, Shanghai Division, Chinese Mathematics Competition</strong> December 2025<br><br>
-        <strong>Excellent Student Third-Class Scholarship</strong> Fudan University, October 2026<br><br>
-        <strong>Fundamental Subjects' Scholarship</strong> Fudan University, October 2026<br>
-    </p>
+    <!-- ================= LEFT SIDEBAR ================= -->
 
-    <h2>Contact</h2>
-    <p>
-        Email: czchen24@m.fudan.edu.cn<br>
-        Github: <a href="https://github.com/ChangzeChen">ChangzeChen</a><br>
-        Address: Handan Road No.220, Yangpu District, Shanghai
-        <br>
-        <br>
-        <strong>Thank you so much for reading my personal website!</strong>
-    </p>
-<blockquote>
-    <i>"We choose to go to the Moon in this decade and do the other things,
-    not because they are easy, but because they are hard.”
-    <br>
-    <span>— John F. Kennedy, 1962</span></i>
-</blockquote>
+    <aside class="sidebar">
+
+        <img src="images/profile.jpg"
+             alt="Changze Chen"
+             class="profile-photo">
+
+        <h1>Changze Chen</h1>
+
+        <p class="subtitle">
+            Undergraduate Student<br>
+            School of Mathematical Sciences<br>
+            Fudan University
+        </p>
+
+        <div class="contact">
+
+            <p>
+                <strong>Email</strong><br>
+                <a href="mailto:czchen24@m.fudan.edu.cn">
+                    czchen24@m.fudan.edu.cn
+                </a>
+            </p>
+
+            <p>
+                <strong>GitHub</strong><br>
+                <a href="https://github.com/ChangzeChen" target="_blank">
+                    ChangzeChen
+                </a>
+            </p>
+
+            <p>
+                <strong>Address</strong><br>
+                220 Handan Road<br>
+                Yangpu District<br>
+                Shanghai, China
+            </p>
+
+        </div>
+
+    </aside>
+
+
+    <!-- ================= RIGHT SIDE ================= -->
+
+    <main class="content">
+
+        <!-- Navigation -->
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="research.html">Research</a>
+            <a href="projects.html">Projects</a>
+            <a href="awards.html">Awards</a>
+        </nav>
+
+        <hr>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section>
+
+            <h2>About Me</h2>
+
+            <p>
+                I am currently a junior undergraduate student in the
+                School of Mathematical Sciences at Fudan University.
+                My major is computational mathematics.
+            </p>
+
+            <p>
+                My academic interests include
+                <strong>
+                    applied and computational mathematics,
+                    computational fluid dynamics,
+                    stochastic processes in atmospheric science,
+                    and numerical analysis.
+                </strong>
+            </p>
+
+            <p>
+                I plan to apply for Ph.D. programs starting in Fall 2028.
+                I'm self-motivated and always eager to learn new and
+                interesting things.
+            </p>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section>
+
+            <h2>Education</h2>
+
+            <div class="education-item">
+
+                <h3>
+                    Fudan University
+                    <span>Shanghai, China</span>
+                </h3>
+
+                <p>
+                    B.S. in Information and Computational Science
+                    (Computational Mathematics)<br>
+                    August 2024 – July 2028
+                </p>
+
+                <p>
+                    <strong>Core Courses:</strong>
+                    Mathematical Analysis, Advanced Algebra,
+                    Ordinary Differential Equations,
+                    Statistical Learning, Abstract Algebra,
+                    Mathematical Modeling,
+                    Real Analysis (Measure and Integration),
+                    Complex Analysis, Topology, and Geometry.
+                </p>
+
+            </div>
+
+
+            <div class="education-item">
+
+                <h3>
+                    University of Connecticut
+                    <span>Connecticut, United States</span>
+                </h3>
+
+                <p>
+                    Exchange Student<br>
+                    August 2026 – December 2026
+                </p>
+
+                <p>
+                    <strong>Core Courses:</strong>
+                    Probability and Stochastic Processes (Graduate),
+                    Partial Differential Equations,
+                    and Introduction to Mathematical Statistics.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= QUOTE ================= -->
+
+        <blockquote>
+            <i>
+                “We choose to go to the Moon in this decade and do the other things,
+                not because they are easy, but because they are hard.”
+                <br><br>
+                — John F. Kennedy, 1962
+            </i>
+        </blockquote>
+
+    </main>
+
+</div>
+
 </body>
 
 </html>
