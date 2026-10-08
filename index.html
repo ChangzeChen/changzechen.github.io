@@ -1,107 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
     <meta charset="UTF-8">
+
+    <!-- 适配手机、平板等设备 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 网页标题 -->
     <title>Changze Chen</title>
+
+    <!-- 网页简介：搜索引擎可能会使用 -->
+    <meta name="description"
+          content="Changze Chen - Undergraduate student in Mathematics at Fudan University.">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- MathJax：支持 LaTeX 数学公式 -->
+    <script>
+        window.MathJax = {
+            tex: {
+                inlineMath: [
+                    ['$', '$'],
+                    ['\\(', '\\)']
+                ],
+                displayMath: [
+                    ['$$', '$$'],
+                    ['\\[', '\\]']
+                ]
+            }
+        };
+    </script>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+        async>
+    </script>
 </head>
 
-<body>
+<h1>Changze Chen</h1>
+    <h2>About Me</h2>
+    <p>
+        I am currently a junior undergraduate student in the School of Mathematical Sciences,
+        Fudan University. My major is computational mathematics.<br>
+        My academic interests include applied and computational mathematics, computational fluid dynamics, stochastic processes in atmospheric science,
+        numerical analysis.<br>
+        I plan to apply for Ph.D. programs starting in Fall 2028
+    </p>
 
-<div class="container">
+    <h2>Education</h2>
+    <p>
+        <strong>Fudan University</strong><br>
+        B.S. in Information and Computational Science (Computational Mathematics) August 2024 - July 2028<br>
+        Core Courses: Mathematical Analysis, Advanced Algebra, Ordinary Differential Equations, Statistical Learning, Abstract Algebra, 
+        Mathematical Modeling, Real Analysis (Measure and integration), Complex Analysis, Topology, Geometry.
+    </p>
+  <p>
+        <strong>University of Connecticut</strong><br>
+        Exchange Student August 2026 - December 2026<br>
+        Core Courses: Probability and Stochastic Process(Graduate), Partial Differential Equation, Intro to Mathematical Statistics.
+    </p>
 
-    <header>
-        <h1>Changze Chen</h1>
+    <h2>Research Experience and Project</h2>
+    <p>
+         <strong>Deep Learning and PDE based Early Warning System for African Desert Locust</strong><br>
+        Undergraduate Independent Research, sponsored by Wangdao Project, Fudan University Research Opportunity Program(FDUROP)<br>
+        Advisors: Yong Wang (Fudan University) and Yilun Han (UC San Diego)<br>
+        Applied CNNs and time-series analysis to investigate relationships between meteorological conditions and locust population density, 
+        and developed PDE-based numerical models to simulate population-density evolution and estimate the risk of progression toward large-scale locust outbreaks.
+    </p>
+    <p>
+         <strong>Matrix-Free Input–Output Analysis of Wall-Bounded Flows</strong><br>
+        Research Assistant<br>
+        Advisors: <a href="https://changliulab.engineering.uconn.edu/">Chang Liu</a> (University of Connecticut)<br>
+        I worked in the FLUids, rEduction, Nonlinearity, and Turbulence (FLUENT) Lab and developed matrix-free input–output analysis for linearized Navier–Stokes equations using Fourier and Chebyshev discretization and iterative linear solvers. 
+        Applied SVD and adjoint-based methods to compute dominant forcing–response modes and characterize disturbance amplification in wall-bounded flows.
+    </p>
+    <p>
+         <strong>Seminar of Real Analysis: Hausdorff Measure and Hausdorff Dimension</strong><br>
+        I gave a presentation of the construction of Hausdorff measure and proved that $\mathcal H^\alpha$ defines a metric outer measure on $\mathbb R$, with all Borel sets Carathéodory measurable. Also proved that the one-dimensional Hausdorff measure $\mathcal H^1$ coincides with Lebesgue measure on $\mathbb R$.
+        You can find my note <a href="https://github.com/ChangzeChen">here</a>
+    </p>
 
-        <nav>
-            <a href="#about">home</a>
-            <a href="#research">research</a>
-            <a href="#education">education</a>
-            <a href="#contact">contact</a>
-        </nav>
-    </header>
-
-    <hr>
-
-    <section id="about">
-        <h2>About Me</h2>
-
-        <p>
-            I am currently a third-year undergraduate student in the
-            School of Mathematical Sciences at Fudan University,
-            majoring in Information and Computational Science with a focus
-            on computational mathematics.
-        </p>
-
-        <p>
-            My academic interests include applied and computational mathematics,
-            computational fluid dynamics, stochastic processes in atmospheric science,
-            and numerical analysis.
-        </p>
-
-        <p>
-            I plan to apply for Ph.D. programs starting in Fall 2028.
-        </p>
-    </section>
-
-
-    <section id="education">
-        <h2>Education</h2>
-
-        <p>
-            <strong>Fudan University</strong><br>
-            B.S. in Information and Computational Science
-            (Computational Mathematics)<br>
-            August 2024 – July 2028
-        </p>
-
-        <p>
-            <strong>Selected Coursework:</strong>
-            Mathematical Analysis, Advanced Algebra, Ordinary Differential Equations,
-            Statistical Learning, Abstract Algebra, Mathematical Modeling,
-            Real Analysis (Measure and Integration), Complex Analysis,
-            Topology, and Geometry.
-        </p>
-
-        <p>
-            <strong>University of Connecticut</strong><br>
-            Exchange Student<br>
-            August 2026 – December 2026
-        </p>
-
-        <p>
-            <strong>Selected Coursework:</strong>
-            Probability and Stochastic Processes (Graduate),
-            Partial Differential Equations,
-            and Introduction to Mathematical Statistics.
-        </p>
-    </section>
-
-
-    <section id="research">
-        <h2>Research</h2>
-
-        <p>
-            My current research interests include stochastic differential equations,
-            numerical methods, and input-output analysis in fluid mechanics.
-        </p>
-    </section>
-
-
-    <section id="contact">
-        <h2>Contact</h2>
-
-        <p>
-            Email:
-            <a href="mailto:czchen24@m.fudan.edu.cn">
-                czchen24@m.fudan.edu.cn
-            </a>
-        </p>
-    </section>
-
-</div>
+    <h2>Contact</h2>
+    <p>
+        Email: czchen24@m.fudan.edu.cn
+        Github: <a href="https://github.com/ChangzeChen">ChangzeChen</a>
+    </p>
 
 </body>
 
