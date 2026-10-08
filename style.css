@@ -174,3 +174,41 @@ blockquote {
         display: block;
     }
 }
+.research-item,
+.project-item,
+.award-item {
+    margin-bottom: 35px;
+}
+
+.research-item h3,
+.project-item h3,
+.award-item h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.research-item p,
+.project-item p,
+.award-item p {
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.date {
+    float: right;
+    color: #666;
+    font-style: italic;
+}
+
+.section-divider {
+    border: none;
+    border-top: 1px solid #eee;
+    margin: 35px 0;
+}
+
+@media (max-width: 750px) {
+    .date {
+        float: none;
+        display: block;
+    }
+}
